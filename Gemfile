@@ -70,7 +70,7 @@ gem 'haml'
 
 # https://github.com/browserify-rails/browserify-rails
 # https://github.com/mindpin/knowledge-camp/issues/170
-gem 'browserify-rails'
+#gem 'browserify-rails'
 
 # 读取 application.yml 配置
 gem "figaro", "~> 1.1.1"
