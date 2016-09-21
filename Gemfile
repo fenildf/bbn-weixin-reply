@@ -72,9 +72,13 @@ gem 'haml'
 # https://github.com/mindpin/knowledge-camp/issues/170
 gem 'browserify-rails'
 
+# 读取 application.yml 配置
+gem "figaro", "~> 1.1.1"
+
 # 微信回复处理
 gem 'weixin_rails_middleware', '~> 1.3.2'
 
+gem 'mongoid', "6.0.0.beta"
 
 ### 以下是部署相关
 
