@@ -81,6 +81,7 @@ task :deploy => :environment do
       queue %[
         source /etc/profile
         bundle
+        npm install
         RAILS_ENV="production" bundle exec rake assets:precompile
         ./deploy/sh/unicorn.sh stop
         ./deploy/sh/unicorn.sh start
