@@ -1,0 +1,21 @@
+button:
+  - type: click
+    name: 简介
+    key: MENU_ABOUT
+  - name: 栏目
+    sub_button:
+      - type: click
+        name: 好书推荐
+        key: MENU_HAOSHU
+      - type: click
+        name: 工具指南
+        key: MENU_GONGJU
+      - type: click
+        name: 新概念
+        key: MENU_GAINIAN
+      - type: click
+        name: 学习实践
+        key: MENU_SHIJIAN
+      - type: click
+        name: 知乎答疑
+        key: MENU_ZHIHU

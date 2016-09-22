@@ -72,13 +72,18 @@ gem 'haml'
 # https://github.com/mindpin/knowledge-camp/issues/170
 gem 'browserify-rails'
 
+# 图标字体
+gem 'font-awesome-sass'
+
 # 读取 application.yml 配置
 gem "figaro", "~> 1.1.1"
 
 # 微信回复处理
 gem 'weixin_rails_middleware', '~> 1.3.2'
+# 微信 API 调用
+gem 'weixin_authorize'
 
-gem 'mongoid', "6.0.0.beta"
+gem 'mongoid', "~> 6.0.0"
 
 ### 以下是部署相关
 
