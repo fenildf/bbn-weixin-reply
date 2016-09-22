@@ -53,3 +53,14 @@ http://mp.weixin.qq.com/debug/cgi-bin/sandbox?t=sandbox/login
 
 回复逻辑都写在：  
 app/decorators/weixin_rails_middle_ware/weixin_controller_decorator.rb
+
+
+
+#### 运行方法
+
+```shell
+bundle install
+npm install
+rails s -b 0
+```
+

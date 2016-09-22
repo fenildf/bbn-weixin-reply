@@ -21,3 +21,5 @@
 .byebug_history
 
 application.yml
+
+/node_modules
