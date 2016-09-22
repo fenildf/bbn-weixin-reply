@@ -70,7 +70,7 @@ gem 'haml'
 
 # https://github.com/browserify-rails/browserify-rails
 # https://github.com/mindpin/knowledge-camp/issues/170
-gem 'browserify-rails'
+#gem 'browserify-rails'
 
 # 图标字体
 gem 'font-awesome-sass'
